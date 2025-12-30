@@ -1,5 +1,5 @@
 import { Database, Row, Column } from '../types';
-import { Plus, Settings, Trash2, GripVertical } from 'lucide-react';
+import { Plus, Trash2, GripVertical } from 'lucide-react';
 import { useState } from 'react';
 import TableCell from './TableCell';
 import ColumnHeader from './ColumnHeader';

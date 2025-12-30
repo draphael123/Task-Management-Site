@@ -156,7 +156,7 @@ export default function AddColumnModal({ column, onClose, onAdd }: AddColumnModa
                 </button>
               </div>
               <div className="space-y-2">
-                {statusOptions.map((option, index) => (
+                {statusOptions.map((option) => (
                   <div
                     key={option.id}
                     className="flex items-center gap-3 p-3 bg-gray-50 rounded-xl"
