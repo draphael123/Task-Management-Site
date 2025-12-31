@@ -101,7 +101,7 @@ export default function DatabaseView({ database, setDatabase }: DatabaseViewProp
   };
 
   return (
-    <div className="bg-white rounded-3xl shadow-2xl overflow-hidden border-4 border-yellow-300 transform rotate-1 hover:rotate-0 transition-transform duration-300">
+    <div className="bg-white rounded-3xl shadow-2xl overflow-hidden border-4 border-yellow-300">
       <div className="bg-gradient-to-r from-pink-400 via-purple-400 to-indigo-400 p-4">
         <div className="flex items-center justify-between">
           <h2 className="text-2xl font-bold text-white flex items-center gap-2">

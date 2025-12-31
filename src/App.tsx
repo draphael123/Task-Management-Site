@@ -15,17 +15,20 @@ const initialDatabase: Database = {
       { id: 'p2', label: 'Medium', color: '#ffb74d' },
       { id: 'p3', label: 'High', color: '#f06292' },
     ]},
+    { id: 'col4', name: 'Assignee', type: 'text' },
   ],
   rows: [
     { id: 'row1', cells: [
       { columnId: 'col1', value: 'Setup project' },
       { columnId: 'col2', value: 'opt3' },
       { columnId: 'col3', value: 'p2' },
+      { columnId: 'col4', value: '' },
     ]},
     { id: 'row2', cells: [
       { columnId: 'col1', value: 'Design database' },
       { columnId: 'col2', value: 'opt2' },
       { columnId: 'col3', value: 'p3' },
+      { columnId: 'col4', value: '' },
     ]},
   ],
 };
@@ -37,7 +40,7 @@ function App() {
     <div className="min-h-screen p-8">
       <div className="max-w-7xl mx-auto">
         <div className="mb-8 text-center">
-          <h1 className="text-6xl font-bold text-white mb-2 drop-shadow-lg animate-pulse-slow">
+          <h1 className="text-6xl font-bold text-white mb-2 drop-shadow-lg">
             🎉 Task Database 🎊
           </h1>
           <p className="text-xl text-white/90 font-semibold">
